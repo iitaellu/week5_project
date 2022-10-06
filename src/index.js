@@ -30,6 +30,7 @@ const initMap = (data) => {
   map.fitBounds(geoJson.getBounds());
 };
 
+//help from Viia Mäntymäki
 const getFeature = (feature, layer) => {
   if (!feature.id) return;
   //const id = feature.properties.id;
