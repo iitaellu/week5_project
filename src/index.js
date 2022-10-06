@@ -18,7 +18,7 @@ const initMap = (data) => {
   });
 
   let geoJson = L.geoJSON(data, {
-    //weight: 2,
+    weight: 2,
     onEachFeature: getFeature
   }).addTo(map);
 
